@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"
+    />
+  </head>
+  <body>
+    <nav class="nav-container">
+      <h1>DemoPage</h1>
+      <div class="nav-links">
+        <ul>
+          <a href="#"><li>Home</li></a>
+          <a href="#primary"><li>Content 1</li></a>
+          <a href="#secondary"><li>Content 2</li></a>
+        </ul>
+      </div>
+      <div class="burger-menu-container">
+        <input type="checkbox" id="checkbox" class="checkbox" />
+        <div class="burger-menu">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="mobile-nav">
+          <ul>
+            <a href="#"><li class="link">Home</li></a>
+            <a href="#primary"><li class="link">Content 1</li></a>
+            <a href="#secondary"><li class="link">Content 2</li></a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="wrapper">
+      <div id="image-slider" class="splide">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <img
+                src="https://images.pexels.com/photos/774731/pexels-photo-774731.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+              />
+            </li>
+            <li class="splide__slide">
+              <img
+                src="https://images.pexels.com/photos/730896/pexels-photo-730896.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+              />
+            </li>
+            <li class="splide__slide">
+              <img
+                src="https://images.pexels.com/photos/209037/pexels-photo-209037.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+              />
+            </li>
+            <li class="splide__slide">
+              <img
+                src="https://images.pexels.com/photos/177809/pexels-photo-177809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              />
+            </li>
+            <li class="splide__slide">
+              <img
+                src="https://images.pexels.com/photos/96938/pexels-photo-96938.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
+      <section class="content-container" id="content-container">
+        <div class="primary" id="primary">
+          <div class="content">
+            <h2>Lorem, ipsum.</h2>
+            <ul>
+              <li>Lorem, ipsum.</li>
+              <li>Lorem, ipsum.</li>
+              <li>Lorem, ipsum.</li>
+            </ul>
+          </div>
+          <div class="content">
+            <h2>Lorem, ipsum.</h2>
+            <ul>
+              <li>Lorem, ipsum.</li>
+              <li>Lorem, ipsum.</li>
+              <li>Lorem, ipsum.</li>
+            </ul>
+          </div>
+          <div class="content">
+            <h2>Lorem, ipsum.</h2>
+            <ul>
+              <li>Lorem, ipsum.</li>
+              <li>Lorem, ipsum.</li>
+              <li>Lorem, ipsum.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="secondary" id="secondary">
+          <div class="secondary-content">
+            <h2>Lorem, ipsum.</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae, reprehenderit, voluptates facilis et eveniet magnam
+              dolore odio saepe voluptatem doloremque accusamus ducimus vero nam
+              veniam sapiente officia. Voluptates explicabo ad iste labore
+              beatae, omnis praesentium consequuntur, quia officia dolorem
+              distinctio.
+            </p>
+          </div>
+          <div class="secondary-content">
+            <h2>Lorem, ipsum.</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae, reprehenderit, voluptates facilis et eveniet magnam
+              dolore odio saepe voluptatem doloremque accusamus ducimus vero nam
+              veniam sapiente officia. Voluptates explicabo ad iste labore
+              beatae, omnis praesentium consequuntur, quia officia dolorem
+              distinctio.
+            </p>
+          </div>
+          <div class="secondary-content">
+            <h2>Lorem, ipsum.</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae, reprehenderit, voluptates facilis et eveniet magnam
+              dolore odio saepe voluptatem doloremque accusamus ducimus vero nam
+              veniam sapiente officia. Voluptates explicabo ad iste labore
+              beatae, omnis praesentium consequuntur, quia officia dolorem
+              distinctio.
+            </p>
+          </div>
+          <div class="secondary-content">
+            <h2>Lorem, ipsum.</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae, reprehenderit, voluptates facilis et eveniet magnam
+              dolore odio saepe voluptatem doloremque accusamus ducimus vero nam
+              veniam sapiente officia. Voluptates explicabo ad iste labore
+              beatae, omnis praesentium consequuntur, quia officia dolorem
+              distinctio.
+            </p>
+          </div>
+        </div>
+      </section>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    </main>
+    <footer>Footer of the demo page.</footer>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
